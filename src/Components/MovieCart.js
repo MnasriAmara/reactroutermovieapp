@@ -19,8 +19,8 @@ function MovieCart(props) {
             
           
 
-           <Link to={`/details/${props.id}`}> <button className="big-button">See More</button> </Link>
-            <button className="big-button">Show Movie</button>
+           <Link to={`/details2/${props.movie.id}`}> <button className="big-button">See More</button> </Link>
+            
           </div>
          
         </div>
